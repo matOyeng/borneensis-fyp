@@ -3,18 +3,20 @@
 import {
     MapIcon,
     HomeIcon,
+    BugAntIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-    { name: 'Home', href: '/homepage', icon: HomeIcon },
+    { name: 'Museum', href: '/', icon: HomeIcon },
     {
         name: 'Ento Map',
-        href: '/homepage/entoMap',
+        href: '/entoMap',
         icon: MapIcon,
     },
+    { name: 'Insect', href: '/insect', icon: BugAntIcon },
 ];
 
 export default function NavLinks() {
