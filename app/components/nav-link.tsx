@@ -4,19 +4,21 @@ import {
     MapIcon,
     HomeIcon,
     BugAntIcon,
+    PhotoIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-    { name: 'Museum', href: '/', icon: HomeIcon },
+    { name: 'Borneensis Museum', href: '/', icon: HomeIcon },
     {
-        name: 'Ento Map',
+        name: 'Entomology Map',
         href: '/entoMap',
         icon: MapIcon,
     },
-    { name: 'Insect', href: '/insect', icon: BugAntIcon },
+    { name: 'Three-D Insect', href: '/insect', icon: BugAntIcon },
+    { name: 'Photo Blog', href: '/photoBlog', icon: PhotoIcon },
 ];
 
 export default function NavLinks() {

@@ -1,6 +1,6 @@
-import SketchfabGallery from "../ui/homepage/SketchfabGallery";
+import SketchfabGallery from "../components/SketchfabGallery";
 
-export default function Home() {
+export default function InsectPage() {
   return (
     <div>
       <SketchfabGallery />

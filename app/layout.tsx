@@ -1,5 +1,5 @@
 import './globals.css';
-import SideNav from '@/app/ui/homepage/sidenav';
+import SideNav from '@/app/components/sidenav';
 
 export const metadata = {
   title: 'My Application',

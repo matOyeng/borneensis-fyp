@@ -8,7 +8,7 @@ const SLIDE_COUNT = 16;
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 const targetIndexFor3DModel = 5; // Index where the 3D model should appear
 
-export default function Page() {
+export default function EntoMapPage() {
   return (
     <div className="flex flex-col items-center">
 
@@ -25,9 +25,6 @@ export default function Page() {
           tabIndex={0} // Fix for type issue by using a numeric value
         ></iframe>
       </div>
-      {/* Embla Carousel */}
-      {/* <EmblaCarousel slides={SLIDES} options={OPTIONS} targetIndexFor3DModel={targetIndexFor3DModel} /> */}
-      {/* <ModelViewer /> */}
 
     </div>
   );
