@@ -16,10 +16,25 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-  background-color: #000;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #f9fafb; /* Light gray background */
+  padding: 1rem;
+  text-align: center;
 }
 
 header {
@@ -39,4 +54,46 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.feedback-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.feedback-card {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+}
+
+form button {
+  background: #12bca2;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
 }

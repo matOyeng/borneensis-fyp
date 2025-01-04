@@ -1,12 +1,23 @@
-export default function Admin() {
-    return (
-      <div style={{ width: '100%', height: '100vh', overflow: 'hidden' }}>
-        <iframe
-          src="https://exif-photo-blog-h4gc.vercel.app/admin"
-          style={{ width: '100%', height: '100%', border: 'none' }}
-          title="EXIF Photo Blog"
-        ></iframe>
-      </div>
-    );
-  }
-  
+'use client'; // Make this a Client Component
+
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
+
+export default function AdminRedirect() {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Define the callback URL to return to after signing in
+    const callbackUrl = encodeURIComponent('http://localhost:3000/admin');
+    const signInUrl = `https://exif-photo-blog-h4gc.vercel.app/sign-in?callbackUrl=${callbackUrl}`;
+    
+    // Redirect to the external sign-in page
+    router.push(signInUrl);
+  }, [router]);
+
+  return (
+    <div>
+      <p>Redirecting to sign-in page...</p>
+    </div>
+  );
+}
