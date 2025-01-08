@@ -8,8 +8,7 @@ export default function AdminRedirect() {
 
   useEffect(() => {
     // Define the callback URL to return to after signing in
-    const callbackUrl = encodeURIComponent('http://localhost:3000/admin');
-    const signInUrl = `https://exif-photo-blog-h4gc.vercel.app/sign-in?callbackUrl=${callbackUrl}`;
+    const signInUrl = `https://exif-photo-blog-nsn8.vercel.app/sign-in?callbackUrl=https%3A%2F%2Fexif-photo-blog-nsn8.vercel.app%2Fadmin%2Fphotos`;
     
     // Redirect to the external sign-in page
     router.push(signInUrl);
