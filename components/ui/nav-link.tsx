@@ -6,6 +6,7 @@ import {
   BugAntIcon,
   PhotoIcon,
   BookOpenIcon,
+  UserGroupIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -18,6 +19,7 @@ const links = [
   { name: 'Three-D Insect', href: '/threeD', icon: BugAntIcon },
   { name: 'Photo Blog', href: '/photoBlog', icon: PhotoIcon },
   { name: 'Knowledge Check', href: '/exercise', icon: BookOpenIcon },
+  { name: 'About Us', href: '/about', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
