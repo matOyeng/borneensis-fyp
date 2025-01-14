@@ -32,14 +32,6 @@ const QuizEmbed: React.FC = () => {
         allowFullScreen
         onLoad={() => setIsLoading(false)} // Remove fallback when iframe loads
       ></iframe>
-      <a
-        href="https://quizizz.com/admin?source=embedFrame"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ textAlign: 'center', marginTop: '8px', fontSize: '14px', color: '#0070f3' }}
-      >
-        Quizizz Admin Dashboard
-      </a>
     </div>
   );
 };
