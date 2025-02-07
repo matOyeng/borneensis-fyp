@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
       <div className="text-center mt-4 border-t pt-4">
         <p style={{ fontSize }}>
-          &copy; {new Date().getFullYear()} Borneensis+. All Rights Reserved.
+          &copy; {new Date().getFullYear()} BORNEENSIS+. All Rights Reserved.
         </p>
       </div>
     </footer>

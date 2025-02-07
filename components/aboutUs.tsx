@@ -38,7 +38,7 @@ return (
 <div className="my-8">
 <h3 className="text-xl font-semibold text-gray-800 dark:text-white" >Project Description</h3>
 <p className="text-gray-600 dark:text-white mt-4" style={{ fontSize }}>
-            The Borneensis+ project, a collaboration between UPM and UMS, 
+            The BORNEENSIS+ project, a collaboration between UPM and UMS, 
             modernizes the Borneensis Museum through a virtual platform featuring interactive experiences, 
             entomology mapping, 3D insect models, knowledge quizzes, and community participation. 
             Built with Next.js, Unity, and Supabase, it provides remote access to Sabah insect biodiversity while promoting inclusivity with accessibility features and citizen science initiatives.
