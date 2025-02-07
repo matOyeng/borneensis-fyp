@@ -5,7 +5,7 @@ import { ThemeProvider } from '../context/themeProvider';
 import { FontProvider } from '@/context/fontContext';
 
 export const metadata = {
-  title: 'Borneensis+',
+  title: 'BORNEENSIS+',
   description: 'An application consisting of an interactive digital museum, entomology mapping tools, three-dimensional insects, and a photo blog.',
 };
 

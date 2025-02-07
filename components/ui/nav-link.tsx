@@ -14,7 +14,7 @@ import clsx from 'clsx';
 import { useFont } from '@/context/fontContext'; 
 
 const links = [
-  { name: 'BORNEENSIS Museum', href: '/', icon: HomeIcon },
+  { name: 'BORNEENSIS', href: '/', icon: HomeIcon },
   { name: 'Entomology Map', href: '/entoMap', icon: MapIcon },
   { name: 'Three-D Insect', href: '/threeD', icon: BugAntIcon },
   { name: 'Photo Blog', href: '/photoBlog', icon: PhotoIcon },
